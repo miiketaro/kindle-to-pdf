@@ -1,0 +1,18 @@
+# Generated files
+screenshots/
+output/
+user_data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/

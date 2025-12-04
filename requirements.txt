@@ -1,0 +1,4 @@
+pyautogui
+img2pdf
+playwright
+pypdf
