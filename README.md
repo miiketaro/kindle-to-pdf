@@ -27,6 +27,18 @@ Windows 版 Kindle for PC の書籍をキャプチャして PDF に変換する�
    ```powershell
    python main.py --output my_book.pdf --pages 100
    ```
+   ページ送り方向を指定したい場合は `--direction` オプションを使います:
+   ```powershell
+   # 左送り（右縦書きなど）
+   python main.py --output my_book.pdf --direction rtl
+   
+   # 右送り（左横書きなど、デフォルト）
+   python main.py --output my_book.pdf --direction ltr
+   ```
+   PDFのサイズ上限を指定したい場合は `--max-size` オプションを使います（デフォルト: 180MB）:
+   ```powershell
+   python main.py --output my_book.pdf --max-size 50MB
+   ```
 
 3. 画面の指示に従い、Enterキーを押します。
 
