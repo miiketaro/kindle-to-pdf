@@ -44,7 +44,7 @@ def main():
         capturer.wait_for_focus(5)
         capturer.capture_loop(args.temp_dir, args.pages)
         
-        # Convert to PDF
+        # Convert to PDF　f
         max_size_bytes = parse_size(args.max_size) if args.max_size else None
         converter.convert_images_to_pdf(args.temp_dir, args.output, max_size_bytes)
         
